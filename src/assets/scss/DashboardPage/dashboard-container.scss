@@ -1,0 +1,35 @@
+.dashboard {
+  background-color: #F7F7F7;
+  margin-left: 0px;
+  margin-right: 0px;
+  padding: 0;
+  height: -webkit-fill-available;
+  height: -moz-available;
+
+  .detail {
+    display: flex;
+
+    .content {
+      display: block;
+      width: -webkit-fill-available;
+      width: -moz-available;
+      height: -webkit-fill-available;
+      height: -moz-available;
+      display: block;
+      padding: 40px 30px;
+      @media only screen and (min-width: 992px) and (max-width: 1280px){
+        padding: 30px 5px;
+      }
+      @media only screen and (max-width: 1240px){
+        margin-left: 40px;
+      }
+
+      .resume {
+        display: flex;
+        @media only screen and (max-width: 1240px){
+          display: block;
+        }
+      }
+    }
+  } 
+}

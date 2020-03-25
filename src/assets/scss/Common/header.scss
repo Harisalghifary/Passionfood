@@ -1,0 +1,84 @@
+.header {
+  display: flex;
+  box-shadow: 0px 3px 6px #00000029;
+  opacity: 1;
+  margin: unset;
+  padding: 15px 35px;
+  background-color: white;
+  width: -webkit-fill-available;
+
+  .left {
+    display: flex;
+
+    .powered {
+      display: flex;
+      margin-top:auto;
+      @media (max-width: 576px) {
+        display: none;
+      }
+      height: 100px;
+
+      .text {
+        padding:0px 8px;
+        text-align: left;
+        font-family: Open Sans;
+        font-size: 11px;
+        color: #5B5B5B;
+        margin-bottom: 5px;
+        vertical-align: text-bottom;
+      }
+
+      .logo {
+        max-width: 80px;
+        max-height: 80px;
+      }
+    }
+
+    .logo {
+      width: 140px;
+      height: 80px;
+    }
+  }
+
+  .right {
+    display: flex;
+    align-items: center;
+    margin-left: auto;
+    justify-content: flex-end;
+
+    .user {
+      margin: 0px 10px;
+      text-align: center;
+      @media (max-width: 400px) {
+        display: none;
+      }
+
+      .username {
+        font-family: Open Sans;
+        font-size: 16px;   
+        color: #727272;   
+        font-weight: 540;
+        margin-bottom: 0px;
+      }
+
+      .company {
+        font-family: Open Sans;
+        font-size: 16px;   
+        color: #727272;   
+        font-weight: 540;
+        margin-bottom: 0px;
+      }
+    }
+    .profile {
+      margin: 0px 10px;
+      width: 32px;
+      height: 32px;
+    }
+    .logout {
+      margin: 0px 10px;
+      max-width: 15px;
+      max-height: 15px;
+    }
+
+  }
+}

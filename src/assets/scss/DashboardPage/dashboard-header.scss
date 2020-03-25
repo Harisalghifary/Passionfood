@@ -1,0 +1,118 @@
+.dashboard-header {
+  .head {
+    display: flex;
+    
+    @media only screen and (max-width: 880px){
+      display: block;
+    }
+    
+    .toolbar {
+      margin-left: auto;
+      .title {
+        padding: 5px;
+        align-items: center;
+        
+        h1 {
+          color: #707070C4;
+          font-family: Open Sans;
+          font-size: 40px;
+          font-weight: 600;
+          margin: 0px;
+        }
+      }
+    }
+  
+    .filter {
+      background-color: white;
+      display: flex;
+      align-items: center;
+      margin-left: auto;
+      justify-content: flex-end;
+      box-shadow: 0px 2px 3px #00000029;
+      border-radius: 2px;
+      flex-direction: row;
+      width: fit-content;
+      padding: 10px 5px;
+
+      @media only screen and (max-width: 880px){
+        margin-left: unset;
+      }
+      
+      .overlay {
+        .popover {
+          width: 500px;
+        }
+      }
+  
+      .calender {
+        width: 30px;
+        height: 30px;
+        margin: 0px 10px;
+      }
+  
+      p {
+        margin: 0px 10px;
+        font-family: Open Sans;
+        font-size: 18px;   
+        color: #8B8B8B; 
+      }
+  
+      .date {
+        margin: 0px 10px;
+        color: #6A6A6A;
+        font-family: Open Sans;
+        font-size: 18px;   
+      }
+  
+      .arrow {
+        margin: 0px 10px;
+        color: #757575;
+      }
+    }
+  }
+
+  .subhead {
+    background: #37B04C 0% 0% no-repeat padding-box;
+    border-radius: 2px;
+    display: flex;
+    padding: 15px;
+    align-items: center;
+    margin-top: 30px;
+    margin-bottom: 16px;
+
+    h5 {
+      color: #FFFFFF;
+      font-family: Open Sans;
+      font-size: 20px;  
+      margin-bottom: 0px;
+      font-weight: 600;
+    }
+
+    .help {
+      margin-left: auto;
+      display: flex;
+      align-items: center;
+
+      .light {
+        width: 25x;
+        height: 25px;
+        margin: 0px 5px;
+      }
+
+      a {
+        margin: 0px 5px;
+        color: #FFFFFF;
+        font-family: Open Sans;
+        font-size: 16px;  
+        margin-bottom: 0px;
+        text-decoration: underline;
+      }
+
+      i {
+        color: #FFFFFF;
+        margin: 0px 5px;
+      }
+    }
+
+  }
+}
